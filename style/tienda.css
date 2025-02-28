@@ -33,9 +33,12 @@
 }
 
 .tituloHuevo{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 80px;
+    margin-top: 3rem;
+    margin-bottom:3rem;
+    margin-left: 5rem;
+    font-family: var(--titulos);
+    font-weight: 400;
+    font-size: 2.5rem;
 }
 
 
@@ -85,5 +88,13 @@
       text-align: left;        
       padding: 1rem;
     }
-    
+    .tituloHuevo{
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 0%;
+        font-size: 2rem;
+    }
+    .carousel-item{
+       height: 90%;
+    }
 }

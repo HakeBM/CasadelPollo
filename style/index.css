@@ -133,9 +133,17 @@
 @media only screen and (max-width: 600px) {
     .contenedorFooter {
       flex-direction: column;  
-      align-items: flex-start; 
+      align-items: center; 
       text-align: left;        
       padding: 1rem;
     }
     
+}
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+    .nav-item {
+        text-align: center;
+    }
 }
